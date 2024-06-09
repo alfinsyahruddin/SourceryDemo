@@ -1,0 +1,12 @@
+configurations:
+  - sources:
+      - ../SourceryDemo/
+    templates:
+      - ./templates/
+    output:
+        path: ../SourceryDemo/Generated/
+        link:
+          project: ../SourceryDemo.xcodeproj
+          targets: [SourceryDemo]
+          group: SourceryDemo/Generated
+
